@@ -1,0 +1,122 @@
+* {
+    box-sizing:border-box;
+    margin: 0;
+}
+
+header {
+    margin-bottom: 100px;
+}
+
+html {
+    color: #000000;
+    font-size: 18px;
+    font-family: inherit;
+}
+
+body {
+    background-image: linear-gradient(#31709B, #9BC7D2);
+    height: 100%;
+}
+
+h1 {
+    font-weight: 400;
+}
+
+.h1-title,
+.h2-title,
+.ul-title {
+    margin-top:20px;
+    margin-bottom: 5px;
+    margin-left: 3%;
+}
+
+a {
+    font-size: 10px;
+    padding: 5px 10px 5px 10px;
+    color: #FFFFFF;
+}
+
+p {
+    margin-left: 30px;
+    margin-right: 90px;
+    width: 75%;
+}
+img {
+    padding: 15px 10px 5px 10px;
+   
+}
+
+.image-box {
+    width: 15%;
+    padding: 20px;
+    display: inline-block
+}
+.img-size {
+    width: 15%
+}
+
+.p-quote {
+    background-color: rgb(255, 244, 182);
+    border-radius: 20px;
+    padding: 10px;
+    width: 75%;
+    margin-top: 2%;
+    margin-right: 10%;
+    margin-left: 2%;
+    margin-bottom: 10px;
+    text-align: center;
+    color: #000000;
+    font-weight: 100;
+    font-size: 20px
+}
+
+.p-style { 
+    border-radius: 20px;
+    padding: 10px;
+    width: 75%;
+    margin-top: 2%;
+    margin-right: 10%;
+    margin-left: 3%;
+    margin-bottom: 10px;
+    text-align: center;
+    color: #000000;
+}
+
+.main-nav {
+    color: #FFF4B6;
+    text-decoration-color: #FCC814;
+    font-size: 150%;
+}
+
+.pic-lay {
+    background-color: #FFF4B6;
+    border-radius: 20px;
+    padding: 10px;
+    width: 90%;
+    margin-top: 2%;
+    margin-right: 10%;
+    margin-left: 2%;
+    margin-bottom: 10px;
+    text-align: center;
+    }
+.itinone {
+    width: 200px;
+    height: 200px;
+}
+
+.itintwo {
+    width: 250px;
+    height: 200px;
+    }
+
+.itin {
+    width: 100%;
+    margin-left: 5%;
+    margin-right: 10%;
+    margin-top: 2px;
+    padding: 10px;
+    color: #000000;
+    text-align: left;
+}
+    
+
