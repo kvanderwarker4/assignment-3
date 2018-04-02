@@ -8,20 +8,21 @@ header {
     display: flex;
     align-items: center;
     background-color:rgb(255, 244, 182);
+    color: #000000; 
 }
 header nav {
     flex: 1;
       
 }
-header naz a{
-    font-size: 30em;
-    padding: 1em;
-    
+header nav a{
+    font-size: 1.5em;
+    color: #31709B;
+    text-decoration: none
     
 }
 header nav ul {
     display: flex;
-    justify-content: flex-end
+    justify-content: flex-end;
 }
         
 header nav li {
@@ -121,17 +122,6 @@ img {
     font-size: 150%;
 }
 
-.pic-lay {
-    background-color: #FFF4B6;
-    border-radius: 20px;
-    padding: 10px;
-    width: 90%;
-    margin-top: 2%;
-    margin-right: 10%;
-    margin-left: 2%;
-    margin-bottom: 10px;
-    text-align: center;
-    }
 .itinone {
     width: 200px;
     height: 200px;
@@ -145,11 +135,47 @@ img {
 .itin {
     width: 100%;
     margin-left: 5%;
-    margin-right: 10%;
     margin-top: 2px;
     padding: 10px;
     color: #000000;
     text-align: left;
+    display: flex;
+    flex-direction: column;
+}
+
+.cont1 {
+    padding: 4vh;
+    text-align:left;
+    display: flex;
+    justify-content: space-around;
+}
+.cont1-item {
+    flex-basis: 33%;
+}
+
+
+.pics {
+    background-color: #FFF4B6;
+    display: flex;
+    flex-wrap:wrap;
+    align-items: center;
+    border-radius: 30px;
+    margin: 0px 20px 20px 20px;
+}
+
+.pics a {
+    flex-grow: 1;
+    flex-basis: 125px;
+    max-width: 300px;
+    margin: 5px;
+}
+
+.pics img {
+    margin: 1em;
+    height: auto;
+    width: 150px;
+    margin: 0;
+    overflow: hidden;
 }
 
 footer {
@@ -175,3 +201,10 @@ footer nav li {
     padding: 1em;
 }
 
+@media screen and (max-width: 40rem) {
+    .cont1, 
+    header, 
+    main, 
+    footer {
+        flex-direction: column;}  
+}
